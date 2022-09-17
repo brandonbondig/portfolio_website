@@ -11,14 +11,14 @@ if you're interested in me working on your next project, feel free to contact me
         </pre>
             <div>
                 <button
-                    class="bg-transparent color-primary hover:bg-green-500 hover:text-white font-semibold  py-2 px-20 border border-color-primary rounded"
-                    onclick="location.href='/about'">Customs Helper</button>
+                    class="bg-transparent color-primary hover:bg-color-primary hover:text-white font-semibold py-2 px-20 border border-color-primary rounded"
+                    onclick="location.href='/NA'">Customs Helper</button>
                 <button
-                    class="ml-5 mr-5 bg-transparent color-primary hover:bg-green-500 hover:text-white font-semibold  py-2 px-20 border border-color-primary rounded"
-                    onclick="location.href='/about'">Email Manager</button>
+                    class="ml-5 mr-5 bg-transparent color-primary hover: bg-color-primary hover:text-white font-semibold py-2 px-20 border border-color-primary rounded"
+                    onclick="location.href='/NA'">Email Manager</button>
                 <button
-                    class="bg-transparent color-primary hover:bg-green-500 hover:text-white font-semibold  py-2 px-20 border border-color-primary rounded"
-                    onclick="location.href='/about'">Web App</button>
+                    class="bg-transparent color-primary hover:bg-color-primary hover:text-white font-semibold py-2 px-20 border border-color-primary rounded"
+                    onclick="location.href='/NA'">Web App</button>
             </div>
 
         </div>

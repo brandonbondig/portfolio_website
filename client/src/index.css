@@ -8,8 +8,11 @@
     },
     .color-secondary{
         @apply text-green-700 
-    }
+    },
     .border-color-primary{
         @apply border-green-500
+    },
+    .bg-color-primary{
+        @apply bg-green-500
     }
 }
