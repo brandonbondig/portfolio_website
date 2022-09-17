@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @layer components{
-    .sidebar-icon{
-        @apply text-green-500
+    .color-primary{
+        @apply text-green-500 
+    },
+    .color-secondary{
+        @apply text-green-700 
+    }
+    .border-color-primary{
+        @apply border-green-500
     }
 }

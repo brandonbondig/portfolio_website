@@ -1,11 +1,22 @@
 <template>
-  <nav><router-link to="/">Home</router-link> | 
-    <router-link to="/portfolio">Portfolio</router-link>
-  </nav>
-
+  <NavBar/>
   <router-view/>
 </template>
 
-<style lang="scss">
+<script>
+  import NavBar from "./components/navBar.vue"
 
+
+export default {
+
+  components:{
+  NavBar,
+}
+}
+</script>
+
+<style>
+body{
+  background-color: #212121;
+}
 </style>
