@@ -6,8 +6,8 @@
             <pre class=" text-gray-500 text-left">
 
 I'm an aspirering software developer.
-Here you can find some of my latest projects and webapps,
-if you're interested in me working on your next project, feel free to contact me!
+Here you can find some of my latest projects and webapps.
+If you're interested in me working on your next project, feel free to contact me!
         </pre>
             <div>
                 <button
