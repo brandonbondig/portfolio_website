@@ -20,7 +20,10 @@ app.get(/.*/, (req, res) =>
 );
 
 // Routes
+const test = require("./api/test")
 
+// Endpoints
+app.use("/api/test", test)
 // Listener
 app.listen(PORT, () => {
   console.log("Server Port: " + PORT);
