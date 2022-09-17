@@ -15,15 +15,27 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "../client/dist")));
 
 // Frontend
-app.get(/.*/, (req, res) =>
+app.get("/", (req, res) =>
+  res.sendFile(path.join(__dirname, "../client/dist", "index.html"))
+);
+app.get("/apps", (req, res) =>
+  res.sendFile(path.join(__dirname, "../client/dist", "index.html"))
+);
+app.get("/work", (req, res) =>
+  res.sendFile(path.join(__dirname, "../client/dist", "index.html"))
+);
+app.get("/about", (req, res) =>
+  res.sendFile(path.join(__dirname, "../client/dist", "index.html"))
+);
+app.get("/contact", (req, res) =>
   res.sendFile(path.join(__dirname, "../client/dist", "index.html"))
 );
 
 // Routes
-const test = require("./api/test")
+const test = require("./api/test.js");
 
 // Endpoints
-app.use("/api/test", test)
+app.use("/api/test", test);
 // Listener
 app.listen(PORT, () => {
   console.log("Server Port: " + PORT);
