@@ -11,6 +11,9 @@ export default {
 
   components: {
     NavBar,
+  },
+  mounted() {
+    console.log("hello");
   }
 }
 </script>
