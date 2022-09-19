@@ -1,7 +1,7 @@
 <template>
     <div id="header" class="flex h-screen">
         <div class="md:m-auto m-auto ml-1 mr-1">
-            <h1 class=" md:text-9xl text-5xl font-bold tracking-tight color-primary  text-center mb-3">
+            <h1 class=" md:text-9xl text-5xl font-bold tracking-tight text-[#0FB981]  text-center mb-3">
                 Hello, I'm Brandon.
             </h1>
             <h2 class="md:text-6xl text-3xl font-bold tracking-tight color-secondary text-center">Full
@@ -15,13 +15,13 @@
             </p>
             <div class="flex justify-center">
                 <button
-                    class="  md:block hidden bg-transparent color-primary hover:bg-color-primary hover:text-white font-semibold py-2 px-20 border border-color-primary rounded"
+                    class="  md:block hidden bg-transparent text-[#0FB981] hover:bg-[#0FB981] hover:text-white font-semibold py-2 px-20 border border-[#0FB981] rounded"
                     onclick="location.href='/NA'">Customs Helper</button>
                 <button
-                    class=" md:block hidden ml-5 mr-5 bg-transparent color-primary hover: bg-color-primary hover:text-white font-semibold py-2 px-20 border border-color-primary rounded"
+                    class=" md:block hidden ml-5 mr-5 bg-transparent text-[#0FB981] hover:bg-[#0FB981] hover:text-white font-semibold py-2 px-20 border border-[#0FB981] rounded"
                     onclick="location.href='/NA'">Email Manager</button>
                 <button
-                    class=" bg-transparent color-primary hover:bg-color-primary hover:text-white font-semibold py-2 px-20 border border-color-primary rounded"
+                    class=" bg-transparent text-[#0FB981] hover:bg-[#0FB981] hover:text-white font-semibold py-2 px-20 border border-[#0FB981] rounded"
                     onclick="location.href='/NA'">Apps</button>
             </div>
 

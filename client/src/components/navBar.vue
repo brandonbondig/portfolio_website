@@ -29,34 +29,34 @@
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
 
           <ul
-            class="bg-[#212121] md:border-2 flex flex-col p-4 rounded-md border border-gray-500 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+            class="bg-[#2e2e2e]  flex flex-col p-4 rounded-md border md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
             <li class="md:block hidden">
               <darkModeToggler />
             </li>
             <li @click="hideMenu()" class=" self-center">
               <router-link to="/"
-                class="block py-2 pr-4 pl-3 text-xl text-white rounded active:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0">
+                class="block py-2 pr-4 pl-3 text-xl text-white rounded active:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#0FB981] md:p-0">
                 Home</router-link>
             </li>
             <li @click="hideMenu()" class=" self-center">
               <router-link to="/apps"
-                class="block py-2 pr-4 pl-3 text-xl text-white rounded active:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0">
+                class="block py-2 pr-4 pl-3 text-xl text-white rounded active:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#0FB981] md:p-0">
                 Apps</router-link>
             </li>
             <li @click="hideMenu()" class=" self-center">
               <router-link to="/work"
-                class="block py-2 pr-4 pl-3 text-xl text-white rounded active:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0">
+                class="block py-2 pr-4 pl-3 text-xl text-white rounded active:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#0FB981] md:p-0">
                 Work</router-link>
             </li>
 
             <li @click="hideMenu()" class=" self-center">
               <router-link to="/about"
-                class="block py-2 pr-4 pl-3 text-xl text-white rounded active:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0">
+                class="block py-2 pr-4 pl-3 text-xl text-white rounded active:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#0FB981] md:p-0">
                 About</router-link>
             </li>
             <li @click="hideMenu()" class=" self-center">
               <router-link to="/contact"
-                class="block py-2 pr-4 pl-3 text-xl text-white rounded active:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0">
+                class="block py-2 pr-4 pl-3 text-xl text-white rounded active:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#0FB981] md:p-0">
                 Contact</router-link>
             </li>
           </ul>
