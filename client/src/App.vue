@@ -1,22 +1,28 @@
 <template>
-  <NavBar/>
-  <router-view/>
+  <NavBar />
+  <router-view />
 </template>
 
 <script>
-  import NavBar from "./components/navBar.vue"
+import NavBar from "./components/navBar.vue"
 
 
 export default {
 
-  components:{
-  NavBar,
-}
+  components: {
+    NavBar,
+  }
 }
 </script>
 
 <style>
-body{
+body {
   background-color: #212121;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 </style>
