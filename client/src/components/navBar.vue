@@ -4,7 +4,7 @@
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <router-link to="/" class="flex items-center">
           <img src="../assets/logo.svg" class="mr-3 h-6 sm:h-9 fill-blue-500" alt="Bondig Logo" />
-          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Brandon Bondig</span>
+          <span class="self-center text-xl font-semibold whitespace-nowrap text-white">Brandon Bondig</span>
         </router-link>
 
         <button data-collapse-toggle="navbar-default" type="button"
