@@ -14,24 +14,21 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "../client/dist")));
 
-// Declarations
-const website = path.join(__dirname, "../client/dist", "index.html")
-
 // Frontend
 app.get("/", (req, res) =>
-  res.sendFile(website)
+  res.sendFile(path.join(__dirname, "../client/dist", "index.html"))
 );
 app.get("/apps", (req, res) =>
-  res.sendFile(website)
+  res.sendFile(path.join(__dirname, "../client/dist", "index.html"))
 );
 app.get("/work", (req, res) =>
-  res.sendFile(website)
+  res.sendFile(path.join(__dirname, "../client/dist", "index.html"))
 );
 app.get("/about", (req, res) =>
-  res.sendFile(website))
+  res.sendFile(path.join(__dirname, "../client/dist", "index.html"))
 );
 app.get("/contact", (req, res) =>
-  res.sendFile(website)
+  res.sendFile(path.join(__dirname, "../client/dist", "index.html"))
 );
 
 // Routes
