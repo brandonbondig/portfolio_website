@@ -10,7 +10,7 @@
             <p class=" md:text-2xl text-xl text-center dark:text-gray-400 m-3 w-70 md:w-90">
                 I'm an aspirering software engineer. <br>
                 Here you can find some of my latest projects and apps. <br>
-            <p class="md:block hidden">If you're interested in me working on your next project, feel free to contact me!
+            <p class="md:block hidden ">If you're interested in me working on your next project, feel free to contact me!
             </p>
             </p>
             <div class="flex justify-center">
