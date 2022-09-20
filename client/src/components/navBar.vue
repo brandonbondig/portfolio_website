@@ -33,34 +33,34 @@
             <li class="md:block md:p-2 hidden">
               <darkModeToggler />
             </li>
-            <li @click="hideMenu('home')" :class="{ active: menuToggle == 'home' }"
+            <li :class="{ active: menuToggle == 'home' }"
               class=" w-full md:p-2  rounded-md self-center">
-              <router-link to="/"
+              <router-link @click="hideMenu('home')" to="/"
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                 Home</router-link>
             </li>
-            <li @click="hideMenu('apps')" :class="{ active: menuToggle == 'apps' }"
+            <li  :class="{ active: menuToggle == 'apps' }"
               class=" w-full md:p-2 rounded-md self-center">
-              <router-link to="/apps"
+              <router-link @click="hideMenu('apps')" to="/apps"
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold  active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                 Apps</router-link>
             </li>
-            <li @click="hideMenu('work')" :class="{ active: menuToggle == 'work' }"
+            <li  :class="{ active: menuToggle == 'work' }"
               class=" w-full md:p-2 rounded-md self-center">
-              <router-link to="/work"
+              <router-link @click="hideMenu('work')" to="/work"
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold  active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                 Work</router-link>
             </li>
 
-            <li @click="hideMenu('about')" :class="{ active: menuToggle == 'about' }"
+            <li  :class="{ active: menuToggle == 'about' }"
               class=" w-full md:p-2 rounded-md self-center">
-              <router-link to="/about"
+              <router-link @click="hideMenu('about')" to="/about"
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold  active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                 About</router-link>
             </li>
-            <li @click="hideMenu('contact')" :class="{ active: menuToggle == 'contact' }"
+            <li  :class="{ active: menuToggle == 'contact' }"
               class=" w-full md:p-2 rounded-md self-center">
-              <router-link to="/contact"
+              <router-link @click="hideMenu('contact')" to="/contact"
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold  active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                 Contact</router-link>
             </li>
