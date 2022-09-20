@@ -15,12 +15,21 @@
         </button></div>
 </template>
 <script>
+import store from '../store/index.js';
+
 export default {
     name: "darkModeToggler",
-    methods: {
-        toggleDarkMode: () => {
-            document.querySelector("body").classList.toggle("dark")
+    data() {
+        return {
         }
     },
+    methods: {
+        toggleDarkMode() {
+            let body = document.getElementById("app")
+
+            body.className == "dark" ? body.classList.remove("dark") : body.classList.add("dark")
+
+        }
+    }
 }
 </script>
