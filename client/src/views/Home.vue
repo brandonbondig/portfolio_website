@@ -35,7 +35,9 @@
 
 
 export default {
-    name: "HomeView"
+    name: "HomeView",
+
+
 }
 </script>
 <style scoped>

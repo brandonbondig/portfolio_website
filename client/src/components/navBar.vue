@@ -33,33 +33,28 @@
             <li class="md:block md:p-2 hidden">
               <darkModeToggler />
             </li>
-            <li :class="{ active: menuToggle == 'home' }"
-              class=" w-full md:p-2  rounded-md self-center">
+            <li :class="{ active: menuToggle == 'home' }" class=" w-full md:p-2  rounded-md self-center">
               <router-link @click="hideMenu('home')" to="/"
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                 Home</router-link>
             </li>
-            <li  :class="{ active: menuToggle == 'apps' }"
-              class=" w-full md:p-2 rounded-md self-center">
+            <li :class="{ active: menuToggle == 'apps' }" class=" w-full md:p-2 rounded-md self-center">
               <router-link @click="hideMenu('apps')" to="/apps"
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold  active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                 Apps</router-link>
             </li>
-            <li  :class="{ active: menuToggle == 'work' }"
-              class=" w-full md:p-2 rounded-md self-center">
+            <li :class="{ active: menuToggle == 'work' }" class=" w-full md:p-2 rounded-md self-center">
               <router-link @click="hideMenu('work')" to="/work"
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold  active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                 Work</router-link>
             </li>
 
-            <li  :class="{ active: menuToggle == 'about' }"
-              class=" w-full md:p-2 rounded-md self-center">
+            <li :class="{ active: menuToggle == 'about' }" class=" w-full md:p-2 rounded-md self-center">
               <router-link @click="hideMenu('about')" to="/about"
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold  active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                 About</router-link>
             </li>
-            <li  :class="{ active: menuToggle == 'contact' }"
-              class=" w-full md:p-2 rounded-md self-center">
+            <li :class="{ active: menuToggle == 'contact' }" class=" w-full md:p-2 rounded-md self-center">
               <router-link @click="hideMenu('contact')" to="/contact"
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold  active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                 Contact</router-link>
@@ -82,6 +77,7 @@ export default {
       menuToggle: "home"
     }
   },
+
   methods: {
     toggleMenu() {
       const menu = document.getElementById("navbar-default")
@@ -90,9 +86,10 @@ export default {
     hideMenu(el) {
       const menu = document.getElementById("navbar-default")
       const body = document.querySelector("body")
-      this.menuToggle = el
-      console.log(this.menuToggle);
+
+      this.menuToggle = this.$router.currentRoute.value.name
       menu.classList.add("hidden");
+      //console.log(this.$router.currentRoute.value.name)
     }
   }
 }
