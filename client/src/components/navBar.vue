@@ -74,10 +74,9 @@ export default {
   components: { darkModeToggler },
   data() {
     return {
-      menuToggle: "home"
+      menuToggle: ''
     }
   },
-
   methods: {
     toggleMenu() {
       const menu = document.getElementById("navbar-default")
@@ -86,15 +85,22 @@ export default {
     hideMenu(el) {
       const menu = document.getElementById("navbar-default")
       const body = document.querySelector("body")
-
-      this.menuToggle = this.$router.currentRoute.value.name
       menu.classList.add("hidden");
-      //console.log(this.$router.currentRoute.value.name)
+
     }
-  }
+  },
+  computed: {
+    path: function () {
+      return this.$store.state.route
+    }
+  },
+  watch: {
+    path(pathName) {
+      return this.menuToggle = pathName.name
+    }
+  },
 }
 </script>
-
 
 <style>
 .nav {

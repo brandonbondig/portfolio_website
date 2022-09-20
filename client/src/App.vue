@@ -1,6 +1,6 @@
 <template>
   <NavBar />
-  <router-view @paths="paths = test" />
+  <router-view />
 </template>
 
 <script>
@@ -12,14 +12,7 @@ export default {
   components: {
     NavBar,
   },
-  data() {
-    return {
-      test: 0
-    }
-  },
-  mounted() {
-    EventBus.$on("")
-  }
+
 }
 </script>
 

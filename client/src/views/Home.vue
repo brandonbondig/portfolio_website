@@ -36,8 +36,9 @@
 
 export default {
     name: "HomeView",
-
-
+    created() {
+        this.$store.commit('SET_ROUTE', this.$router.currentRoute)
+    }
 }
 </script>
 <style scoped>

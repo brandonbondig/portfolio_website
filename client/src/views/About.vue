@@ -30,6 +30,10 @@
 </template>
 <script>
 export default {
+    name: "about",
+    created() {
+        this.$store.commit('SET_ROUTE', this.$router.currentRoute)
+    }
 }
 </script>
 <style lang="">

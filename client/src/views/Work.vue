@@ -1,10 +1,13 @@
 <template>
-    <div>
-    </div>
+  <div>
+  </div>
 </template>
 <script>
 export default {
-    name: "Portfolio"
+  name: "Portfolio",
+  created() {
+    this.$store.commit('SET_ROUTE', this.$router.currentRoute)
+  }
 }
 </script>
 <style lang="sass">
