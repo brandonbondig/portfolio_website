@@ -29,7 +29,7 @@
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
 
           <ul
-            class="bg-[#2e2e2e]  flex flex-col p-4 rounded-md border md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+            class="bg-[#2e2e2e]  flex flex-col rounded-md border md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
             <li class="md:block md:p-2 hidden">
               <darkModeToggler />
             </li>
