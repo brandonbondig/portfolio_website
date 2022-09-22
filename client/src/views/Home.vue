@@ -17,7 +17,7 @@
             <div class="flex justify-center">
                 <button
                     class="  md:block hidden bg-transparent text-[#0FB981] hover:bg-[#0FB981] hover:text-white font-semibold py-2 px-20 border border-[#0FB981] rounded"
-                    onclick="href='https://customs.brandonbondig.com'">Customs Helper</button>
+                    onclick="location.href='https://customs.brandonbondig.com'">Customs Helper</button>
                 <button
                     class=" md:block hidden ml-5 mr-5 bg-transparent text-[#0FB981] hover:bg-[#0FB981] hover:text-white font-semibold py-2 px-20 border border-[#0FB981] rounded"
                     onclick="location.href='/NA'">Email Manager</button>
