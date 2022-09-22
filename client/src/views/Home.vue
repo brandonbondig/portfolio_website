@@ -13,6 +13,7 @@
             <p class="md:block hidden ">If you're interested in me working on your next project, feel free to contact
                 me!
             </p>
+            
             </p>
             <div class="flex justify-center">
                 <button

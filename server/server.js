@@ -31,12 +31,6 @@ app.get("/contact", (req, res) =>
   res.sendFile(path.join(__dirname, "../client/dist", "index.html"))
 );
 
-// Routes
-const test = require("./api/test.js");
-
-// Endpoints
-app.use("/api/test", test);
-
 // Handling non matching request from the client
 app.use((req, res, next) => {
   res.status(404).send(
