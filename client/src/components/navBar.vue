@@ -38,11 +38,6 @@
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                 Home</router-link>
             </li>
-            <li :class="{ active: menuToggle == 'apps' }" class=" w-full md:p-2 rounded-md self-center">
-              <router-link @click="hideMenu('apps')" to="/apps"
-                class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold  active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
-                Apps</router-link>
-            </li>
             <li :class="{ active: menuToggle == 'work' }" class=" w-full md:p-2 rounded-md self-center">
               <router-link @click="hideMenu('work')" to="/work"
                 class="block py-2 pr-4 pl-3 text-xl text-white rounded font-bold  active:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
