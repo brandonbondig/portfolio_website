@@ -27,12 +27,11 @@
                     i'll keep practicing and getting better.
                 </p>
                 <div class="flex symbols w-full justify-evenly md:justify-start m-3">
-                    <img src="../assets/symbols/icons8-facebook.svg" class=" cursor-pointer h-10 fill-blue-500"
-                        alt="facebook">
-                    <img src="../assets/symbols/icons8-github.svg" class=" cursor-pointer h-10" alt="github">
-                    <img src="../assets/symbols/icons8-instagram.svg" class=" cursor-pointer h-10" alt="instagram">
-                    <img src="../assets/symbols/icons8-linkedin.svg" class=" cursor-pointer h-10" alt="linkdin">
-                    <img src="../assets/symbols/icons8-twitter.svg" class=" cursor-pointer h-10" alt="twitter">
+                    <img src="../assets/symbols/icons8-facebook.svg" class=" cursor-pointer h-10 md:mr-2" alt="facebook">
+                    <img src="../assets/symbols/icons8-github.svg" class=" cursor-pointer h-10 md:mr-2" alt="github">
+                    <img src="../assets/symbols/icons8-instagram.svg" class=" cursor-pointer h-10 md:mr-2" alt="instagram">
+                    <img src="../assets/symbols/icons8-linkedin.svg" class=" cursor-pointer h-10 md:mr-2" alt="linkdin">
+                    <img src="../assets/symbols/icons8-twitter.svg" class=" cursor-pointer h-10 md:mr-2" alt="twitter">
                 </div>
             </div>
 
