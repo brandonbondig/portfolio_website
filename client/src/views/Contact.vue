@@ -30,7 +30,5 @@ export default {
 }
 </script>
 <style scoped>
-section {
-    background-image: url('../assets/texture.svg');
-}
+
 </style>
