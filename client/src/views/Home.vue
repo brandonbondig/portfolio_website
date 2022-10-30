@@ -13,18 +13,18 @@
             <p class="md:block hidden ">If you're interested in me working on your next project, feel free to contact
                 me!
             </p>
-            
+
             </p>
             <div class="flex justify-center">
                 <button
                     class="  md:block hidden bg-transparent text-[#0FB981] hover:bg-[#0FB981] hover:text-white font-semibold py-2 px-20 border border-[#0FB981] rounded"
-                    onclick="location.href='https://customs.brandonbondig.com'">Customs Helper</button>
+                    onclick="location.href='https://simplytics.io'">Simplytics</button>
                 <button
                     class=" md:block hidden ml-5 mr-5 bg-transparent text-[#0FB981] hover:bg-[#0FB981] hover:text-white font-semibold py-2 px-20 border border-[#0FB981] rounded"
-                    onclick="location.href='/NA'">Email Manager</button>
+                    onclick="location.href='/'">Resume</button>
                 <button
                     class=" bg-transparent text-[#0FB981] hover:bg-[#0FB981] hover:text-white font-semibold py-2 px-20 border border-[#0FB981] rounded"
-                    onclick="location.href='/NA'">Apps</button>
+                    onclick="location.href='/'">Apps</button>
             </div>
 
         </div>
